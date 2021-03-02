@@ -73,7 +73,7 @@ FOUNDATION_EXPORT const unsigned char OpenSSL_iOSVersionString[];
 #import <openssl/cmac.h>
 #import <openssl/aes.h>
 #import <openssl/asn1.h>
-#import <openssl/asn1_mac.h>
+//#import <openssl/asn1_mac.h>
 #import <openssl/asn1t.h>
 #import <openssl/bio.h>
 #import <openssl/cms.h>
@@ -104,8 +104,8 @@ FOUNDATION_EXPORT const unsigned char OpenSSL_iOSVersionString[];
 #import <openssl/kdf.h>
 #import <openssl/rand_drbg.h>
 #import <openssl/sm2.h>
+#import <openssl/sm3.h>
 #import <openssl/sm4.h>
-#import <openssl/sm5.h>
 #import <openssl/store.h>
 
 #endif /* openssl_h */
