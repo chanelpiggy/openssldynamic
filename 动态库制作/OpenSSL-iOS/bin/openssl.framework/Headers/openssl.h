@@ -26,14 +26,14 @@ FOUNDATION_EXPORT const unsigned char OpenSSL_iOSVersionString[];
 #import <openssl/idea.h>
 #import <openssl/bn.h>
 #import <openssl/des.h>
-#import <openssl/des_old.h>
+//#import <openssl/des_old.h>
 #import <openssl/opensslconf.h>
 #import <openssl/md4.h>
 #import <openssl/md5.h>
 #import <openssl/mdc2.h>
 #import <openssl/pkcs12.h>
 #import <openssl/pkcs7.h>
-#import <openssl/pqueue.h>
+//#import <openssl/pqueue.h>
 #import <openssl/rand.h>
 #import <openssl/ripemd.h>
 #import <openssl/rsa.h>
@@ -44,13 +44,13 @@ FOUNDATION_EXPORT const unsigned char OpenSSL_iOSVersionString[];
 #import <openssl/srtp.h>
 #import <openssl/ssl.h>
 #import <openssl/ssl2.h>
-#import <openssl/ssl23.h>
+//#import <openssl/ssl23.h>
 #import <openssl/ssl3.h>
 #import <openssl/tls1.h>
 #import <openssl/ts.h>
 #import <openssl/txt_db.h>
 #import <openssl/ui.h>
-#import <openssl/ui_compat.h>
+//#import <openssl/ui_compat.h>
 #import <openssl/whrlpool.h>
 #import <openssl/x509.h>
 #import <openssl/x509_vfy.h>
@@ -83,8 +83,8 @@ FOUNDATION_EXPORT const unsigned char OpenSSL_iOSVersionString[];
 #import <openssl/crypto.h>
 #import <openssl/dh.h>
 #import <openssl/dsa.h>
-#import <openssl/krb5_asn.h>
-#import <openssl/dso.h>
+//#import <openssl/krb5_asn.h>
+//#import <openssl/dso.h>
 #import <openssl/ebcdic.h>
 #import <openssl/lhash.h>
 #import <openssl/obj_mac.h>
@@ -93,8 +93,19 @@ FOUNDATION_EXPORT const unsigned char OpenSSL_iOSVersionString[];
 #import <openssl/err.h>
 #import <openssl/evp.h>
 #import <openssl/hmac.h>
-#import <openssl/kssl.h>
+//#import <openssl/kssl.h>
 #import <openssl/e_os2.h>
 #import <openssl/ec.h>
+
+#import <openssl/rc5.h>
+#import <openssl/md2.h>
+#import <openssl/async.h>
+#import <openssl/ct.h>
+#import <openssl/kdf.h>
+#import <openssl/rand_drbg.h>
+#import <openssl/sm2.h>
+#import <openssl/sm4.h>
+#import <openssl/sm5.h>
+#import <openssl/store.h>
 
 #endif /* openssl_h */
